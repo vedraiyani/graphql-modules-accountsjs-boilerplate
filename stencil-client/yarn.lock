@@ -11,6 +11,15 @@
     "@accounts/types" "^0.9.0"
     crypto-js "^3.1.9-1"
 
+"@accounts/client@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@accounts/client/-/client-0.15.0.tgz#edd7ed7a9841fc0ab586c7865231e69e84be82ee"
+  integrity sha512-evcUeCVPr3i7IpsPeZykH9+niOhnhalOcsbQxufMw1DZFc0naxHOlxr65gv3Skfy8ASlZmXrP1HnQFWbLZbqPg==
+  dependencies:
+    "@accounts/types" "^0.15.0"
+    jwt-decode "2.2.0"
+    tslib "1.9.3"
+
 "@accounts/client@^0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@accounts/client/-/client-0.9.0.tgz#e6ff3d99292a983ab109d8a64f80966f63a9fc5a"
@@ -19,14 +28,22 @@
     "@accounts/types" "^0.9.0"
     jwt-decode "2.2.0"
 
-"@accounts/graphql-client@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@accounts/graphql-client/-/graphql-client-0.9.0.tgz#d0ab8cafa6c8024c871b756a5f767d70f42c0660"
-  integrity sha512-Yh0dqh/wNV2zOZrxaR9Y8asRpZ8y64JkBnRO1iBA79iKUOq7gXwvPVFe60Rt2olbg5lShHsU3wAieVxyJ7FF1w==
+"@accounts/graphql-client@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@accounts/graphql-client/-/graphql-client-0.15.0.tgz#9827139dc1e6ec6aa88375ad837d7131929afb7d"
+  integrity sha512-MztbTnH/1jj9qZBXMLWuSYYSbhTeT6CQrBtv2G8K6vvcdBAPQzsYsrZBMjJpTzzz4Ctyhp558t4lqzMNi9gx4A==
   dependencies:
-    "@accounts/client" "^0.9.0"
-    "@accounts/types" "^0.9.0"
+    "@accounts/client" "^0.15.0"
+    "@accounts/types" "^0.15.0"
     graphql-tag "^2.10.0"
+    tslib "1.9.3"
+
+"@accounts/types@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.15.0.tgz#379db29ccbaf71194d92cbabad9c49041e7142e4"
+  integrity sha512-vjKRqnsM2k/Gv1FuPot5FQra7GtbQvw5OhjSu2Lrn1ZoNRnJ0L4oGWfexivfWhPgZicpj2eFuEBG5u4soTOXcQ==
+  dependencies:
+    tslib "1.9.3"
 
 "@accounts/types@^0.9.0":
   version "0.9.0"
