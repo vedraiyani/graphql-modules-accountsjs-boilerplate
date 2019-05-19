@@ -30,14 +30,15 @@
     lodash "^4.17.11"
     mongodb "^3.1.10"
 
-"@accounts/password@0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.9.2.tgz#59799af4523957b222699318002333ca18be7f95"
-  integrity sha512-YbALL9B+gDNY7mt60LuRegdN366LcNuejZojcV+798LNHmcVrOMqSbBiOzreoji1pyHm5pRPCUlxWyLK7LIgGw==
+"@accounts/password@0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.15.0.tgz#1e4f8493d170e5b35e212103d54b0807429695d8"
+  integrity sha512-0zJO2TSwQG5712tuL6UcnGRwrByJZFGKK18nC7w9jjb1XKUqzbYOuBiKreeemn11icCBVHiAoK24fkDrpOurNw==
   dependencies:
-    "@accounts/two-factor" "^0.9.2"
+    "@accounts/two-factor" "^0.15.0"
     bcryptjs "^2.4.3"
     lodash "^4.17.11"
+    tslib "1.9.3"
 
 "@accounts/password@^0.9.0":
   version "0.9.0"
@@ -72,6 +73,18 @@
     jwt-decode "2.2.0"
     lodash "4.17.11"
 
+"@accounts/two-factor@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.15.0.tgz#ee582a7917aef60a2f3975fd33fe6066b38771ab"
+  integrity sha512-vU4gBd6pE9t5590SqJMlgnBcVG+CznN6VuRzfvfK97RjO5GFURSeVK0OcSwP9tbLOHxsUTj6Efbf5KvenUmMqQ==
+  dependencies:
+    "@accounts/types" "^0.15.0"
+    "@types/lodash" "^4.14.129"
+    "@types/speakeasy" "2.0.2"
+    lodash "^4.17.11"
+    speakeasy "^2.0.0"
+    tslib "1.9.3"
+
 "@accounts/two-factor@^0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.9.0.tgz#de874dd3546b40b4d5ca71be946a7683de7f56ec"
@@ -83,16 +96,12 @@
     lodash "^4.17.11"
     speakeasy "^2.0.0"
 
-"@accounts/two-factor@^0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.9.2.tgz#b441e30583ef52017b198ab6fe93d98ac6936195"
-  integrity sha512-AbtAoVtGsgK4HqooJrxvjZvy3LZNsZqRtSVASq+caK/po5BGbAyDmMmiOSk0R0vBQMILlTu2SgnH+OG5Q+0qfg==
+"@accounts/types@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.15.0.tgz#379db29ccbaf71194d92cbabad9c49041e7142e4"
+  integrity sha512-vjKRqnsM2k/Gv1FuPot5FQra7GtbQvw5OhjSu2Lrn1ZoNRnJ0L4oGWfexivfWhPgZicpj2eFuEBG5u4soTOXcQ==
   dependencies:
-    "@accounts/types" "^0.9.2"
-    "@types/lodash" "^4.14.119"
-    "@types/speakeasy" "2.0.2"
-    lodash "^4.17.11"
-    speakeasy "^2.0.0"
+    tslib "1.9.3"
 
 "@accounts/types@^0.9.0":
   version "0.9.0"
@@ -408,10 +417,10 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.119.tgz#be847e5f4bc3e35e46d041c394ead8b603ad8b39"
   integrity sha512-Z3TNyBL8Vd/M9D9Ms2S3LmFq2sSMzahodD6rCS9V2N44HUMINb75jNkSuwAx7eo2ufqTdfOdtGQpNbieUjPQmw==
 
-"@types/lodash@^4.14.119":
-  version "4.14.120"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.120.tgz#cf265d06f6c7a710db087ed07523ab8c1a24047b"
-  integrity sha512-jQ21kQ120mo+IrDs1nFNVm/AsdFxIx2+vZ347DbogHJPd/JzKNMOqU6HCYin1W6v8l5R9XSO2/e9cxmn7HAnVw==
+"@types/lodash@^4.14.129":
+  version "4.14.129"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.129.tgz#9aaca391db126802482655c48dd79a814488202f"
+  integrity sha512-oYaV0eSlnOacOr7i4X1FFdH8ttSlb57gu3I9MuStIv2CYkISEY84dNHYsC3bF6sNH7qYcu1BtVrCtQ8Q4KPTfQ==
 
 "@types/long@^4.0.0":
   version "4.0.0"
